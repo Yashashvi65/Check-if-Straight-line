@@ -4,6 +4,7 @@ class Stacks_Intro
     int max=1000;
     int top=-1;
     int stack[]=new int[max];
+    //Comment is added
     void push(int x)
     {
         if(top==(max-1))
